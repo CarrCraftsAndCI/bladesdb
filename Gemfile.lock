@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    RedCloth (4.3.2)
+    RedCloth (4.3.3)
     aasm (5.1.1)
       concurrent-ruby (~> 1.0)
     action_mailer_cache_delivery (0.3.7)
@@ -409,7 +409,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  RedCloth (~> 4.3.2)
+  RedCloth (~> 4.3.3)
   aasm (~> 5.1.1)
   action_mailer_cache_delivery (~> 0.3.7)
   auto_strip_attributes (~> 2.6.0)
