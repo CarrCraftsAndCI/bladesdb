@@ -35,11 +35,11 @@ gem "devise-encryptable", "~> 0.2.0"
 gem 'dynamic_form', '~> 1.1.4'
 gem 'font-awesome-rails', '~> 4.7.0.8'
 gem 'auto_strip_attributes', '~> 2.6.0'
-gem 'schema_plus_foreign_keys', '~> 0.1.8'
-gem 'scenic', '~> 1.5.5'
+gem 'schema_plus_foreign_keys', '~> 1.0.1'
+gem 'scenic', '~> 1.6.0'
 gem 'scenic_sqlite_adapter', '~> 0.1.0'
-gem 'schema_auto_foreign_keys', '~> 0.1.3'
-gem 'mail_form', '~> 1.8.1'
+gem 'schema_auto_foreign_keys', '~> 1.0.0'
+gem 'mail_form', '~> 1.9.0'
 gem 'validates_timeliness', '~> 4.1.1'
 
 # Simplified logging
@@ -79,11 +79,11 @@ group :test do
   gem 'guard-rspec', '~> 4.7.3'
   gem 'launchy', '~> 2.5.0'
   gem 'selenium-webdriver', '~> 3.142.7'
-  gem 'cucumber-rails', '~> 2.2.0', require: false
+  gem 'cucumber-rails', '~> 2.3.0', require: false
   gem 'simplecov', '~> 0.18.5', require: false
   gem 'database_cleaner', '~> 1.8.5'
   gem 'email_spec', '~> 2.2.0'
-  gem 'action_mailer_cache_delivery', '~> 0.3.7'
+  gem 'action_mailer_cache_delivery', '~> 0.4.0'
   gem 'poltergeist', '~> 1.18.1'
   gem 'rails-perftest', '~> 0.0.7'
   gem 'ruby-prof', '~> 1.4.2'
